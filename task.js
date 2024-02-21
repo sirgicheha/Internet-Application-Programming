@@ -13,7 +13,7 @@ newTask.addEventListener("input", () => {
 
 const form = document.querySelector("form");
 form.addEventListener("submit", (e) => {
-    //preventing default submission of the form
+    
     e.preventDefault();
 
     const task = newTask.value;
